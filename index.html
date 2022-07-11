@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/1ab94d0eba.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/login.css">
+    <title>Login</title>
+</head>
+<body>
+    <main class="container" id="container">
+        <form action="" class="container-form" id="container-form">
+            <h3 class="form-title" id="form-title">LOGIN</h3>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder=" Digite seu e-mail" required autocomplete="off">
+            <label for="password">Senha:</label>
+            <input type="password" name="password" id="password" placeholder=" Digite sua senha" required>
+            <!--<fieldset class="pass" id="pass">!-->
+            <label for="view-password"> Mostrar sua senha
+                <input type="checkbox" name="view-password" id="view-password">
+            </label>
+            <a href="#" class="forgot-password" id="forgot-password">Esqueceu sua senha?</a>
+        <!--</fieldset>!-->
+            <button class="sign-up" id="sign-up">Login</button>
+            
+            <div class="enter-social-media" id="enter-social-media">
+                <h4>Login com sua rede social</h4>
+                <div class="social icon icon" id="social">
+                    <div class="social-icon-facebook" id="social-icon-facebook">
+                        <a href="https://www.facebook.com">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </div>
+                    <div class="social-icon-linkedin" id="social-icon-linkedin">
+                        <a href="https://www.linkedin.com">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </div>
+                    <div class="social-icon-twitter" id="social-icon-twitter">
+                        <a href="https://twitter.com/login?lang=pt">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="sign-in" id="sign-in">
+                <a class="sign-in" href="#">Cadastre-se</a>
+            </div>
+        </form>
+    </main>
+</body>
+</html>
